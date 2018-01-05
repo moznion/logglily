@@ -1,0 +1,13 @@
+*.exe
+*.dll
+*.so
+*.dylib
+
+*.test
+
+*.out
+
+.glide/
+vendor/
+
+.idea/
