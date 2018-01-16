@@ -37,7 +37,8 @@ func (l *SyncLogger) Log(message Message) error {
 	}
 	defer res.Body.Close()
 
-	if err := checkHTTPResponse(res); err != nil {
+	err = checkHTTPResponse(res)
+	if err != nil {
 		return err
 	}
 
