@@ -6,9 +6,10 @@ import (
 
 	"time"
 
+	"errors"
+
 	"github.com/moznion/logglily/api"
 	internalAPI "github.com/moznion/logglily/internal/api"
-	"github.com/pkg/errors"
 )
 
 // AsyncPoolLogger is a loggly logger with event API asynchronously that uses goroutine pool.
