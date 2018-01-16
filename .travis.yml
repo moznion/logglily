@@ -6,5 +6,10 @@ go:
   - 1.9
   - master
 
+install:
+  - go get -u github.com/golang/lint/golint
+
 script: make check
+
+sudo: false
 
