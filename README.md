@@ -1,7 +1,7 @@
 logglily
 ==
 
-[![Build Status](https://travis-ci.org/moznion/logglily.svg?branch=master)](https://travis-ci.org/moznion/logglily) [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](http://godoc.org/github.com/moznion/logglily)
+[![Build Status](https://travis-ci.org/moznion/logglily.svg?branch=master)](https://travis-ci.org/moznion/logglily) [![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](http://godoc.org/github.com/moznion/logglily/logger)
 
 A logger of [loggly](https://www.loggly.com) for golang.
 
@@ -10,7 +10,7 @@ Documentation
 
 Please refer to the Godoc.
 
-[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](http://godoc.org/github.com/moznion/logglily)
+[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](http://godoc.org/github.com/moznion/logglily/logger)
 
 And [examples](/examples) directory contains examples of this logger.
 
